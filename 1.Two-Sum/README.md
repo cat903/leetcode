@@ -4,7 +4,30 @@
 ## BRUTE FORCE
 
 The brute force approach is simple. Loop through each element xxx and find if there is another value that equals to target.
+- Using C
 
+```
+ /**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+
+int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+   *returnSize = 2;
+   int* returnArr = (int*)malloc(2 * sizeof(int));
+   for(int i=0;i<numsSize-1;i++){
+       for(int j=i+1;j<numsSize;j++){
+           if(nums[i]+nums[j]==target){
+               returnArr[0] = i,returnArr[1] = j;
+               return returnArr;
+           }
+       }
+   }
+    return 0;
+}
+
+```
+
+- Using Javascript 
 ```JS
 /**
  * @param {number[]} nums
