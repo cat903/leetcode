@@ -5,10 +5,9 @@
 
 The brute force approach is simple. Loop through each element xxx and find if there is another value that equals to target.
 
-## using-c
-
 ```C
  /**
+ * brute.c
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
@@ -27,10 +26,10 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 }
 
 ```
-## using-js
 
 ```JS
 /**
+ * brute.js
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -64,6 +63,7 @@ We Iterate through nums and remember elements position and value. if we have see
 
 ```JS
 /**
+ * hashmap.js
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
