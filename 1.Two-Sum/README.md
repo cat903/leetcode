@@ -4,9 +4,10 @@
 ## BRUTE FORCE
 
 The brute force approach is simple. Loop through each element xxx and find if there is another value that equals to target.
-- Using C
 
-```
+## using-c
+
+```C
  /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,8 +27,8 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 }
 
 ```
+## using-js
 
-- Using Javascript 
 ```JS
 /**
  * @param {number[]} nums
