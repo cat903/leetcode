@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {number}
  */
- var reverse = function(x) {
-    let revX = Math.sign(x) * Math.abs(x).toString().split('').reverse().join('');
-    return ((revX > Math.pow(-2,31)) &&(revX < Math.pow(2,31)-1)) ? revX : 0;
+var reverse = function (x) {
+    const absReversed = Math.abs(x).toString().split('').reverse().join('');
+    return absReversed > 2 ** 31 ? 0 : absReversed * Math.sign(x);
 };
