@@ -28,6 +28,25 @@ var isValid = function (s) {
     return !stack.length;
 }
 ```
+```c
+//validpt.c
+bool isValid(char *s) {
+
+    char *q=s;
+    
+    for (char *p=s; *p; p++) 
+        switch(*p) {
+            case '(': *q++ = ')'; continue;
+            case '{': *q++ = '}'; continue;
+            case '[': *q++ = ']'; continue;
+            default: if (q==s || *p != *--q) return false;
+        }
+    
+    return q==s;
+}
+
+```
+
 # Complexity Analysis
 - **Time complexity** : O(n) because we simply traverse the given string one character at a time and push and pop operations on a stack take O(1) time.
 
