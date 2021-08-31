@@ -64,6 +64,9 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
 explaination:
 
+![explanation](35BC49BB-8A81-4DF5-996E-83AC9A07BB7E.jpeg)
+
+![explanation](16FBE187-B540-44CA-8C40-B83B3E398399.jpeg)
 
 <hr>
 
