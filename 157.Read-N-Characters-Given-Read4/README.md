@@ -46,3 +46,21 @@ var solution = function(read4) {
 ```
 
 
+
+| 1 char | 1 byte | 8 bit |
+|--------|--------|-------|
+| 1 word | 4 byte | 32bit |
+
+
+
+
+    -> Because of the physical implementation, loading 4 bytes in DDR is faster than to load 1 byte 4 times.
+
+    -> On the majority of computers today, collection of 4 bytes, or 32 bits, is called a word. Most modern CPUs are optimized for the operations with words.
+
+
+href: https://hexus.net/tech/tech-explained/ram/702-ddr-ii-how-it-works/
+
+href: https://en.wikipedia.org/wiki/Round-robin_scheduling
+
+href: https://en.wikipedia.org/wiki/C10k_problem
