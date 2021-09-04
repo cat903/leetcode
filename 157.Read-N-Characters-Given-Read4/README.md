@@ -10,7 +10,7 @@ Our task is to read n character from file, making sure buf has n characters
 
 ## Explaination:
 
-![explaination]()
+![explaination](F6B5DA18-E043-4334-A418-7C4F3B639E1C.jpeg)
 
 ## Solution:
 
