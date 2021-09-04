@@ -1,6 +1,4 @@
-# Reverse-Integer
-
-![Reverse-Integer](./q.png)
+# [Reverse-Integer](https://leetcode.com/problems/reverse-integer)
 
 ## Reverse String
 
@@ -28,6 +26,7 @@ var reverse = function(x) {
 Modding number x untill its not zero and processing mod value to form reverse integer meanwhile avoiding int overflow in 32 bit machine.
 
 ```c
+//reverseint.c
 int reverse(int x)
 {
     int mod = 0;

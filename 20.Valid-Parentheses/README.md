@@ -1,6 +1,4 @@
-# Valid Parentheses
-
-![valid-parentheses](./q.png)
+# [Valid-Parentheses](https://leetcode.com/problems/valid-parentheses)
 
 # Approach-Using Stack
 

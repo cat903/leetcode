@@ -1,5 +1,4 @@
-# 21.Merge Two Sorted Lists
-![mergetwosortedlists](mergetwosortedlists.png)
+# [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 
 # Approach 
  ## **Recursion:**
@@ -76,7 +75,7 @@ after the 6th call when we are in edge case the call stack  returns the values u
 
 ```js
 /**
- * mergetwosortedlistloop.c
+ * mergetwosortedlistloop.js
  * Definition for singly-linked list.
  * function ListNode(val, next) {
  *     this.val = (val===undefined ? 0 : val)

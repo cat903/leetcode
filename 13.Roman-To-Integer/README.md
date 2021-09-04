@@ -1,9 +1,7 @@
-# ROMAN-TO-INTEGER
+# [ROMAN-TO-INTEGER](https://leetcode.com/problems/roman-to-integer)
 
-![ROMAN-TO-INTEGER](./q1.png)
-![ROMAN-TO-INTEGER](./q2.png)
 
-# **Right-Left-Pass**
+# **Left-Right-Pass**
 
 - loop through the symbols in s
 - if current < next : subtract current from total : add current in total
@@ -12,7 +10,7 @@
 ```js
 /**
  * romantoint.js
- * @param {string} s
+ * @param {string}
  * @return {number}
  */
  var romanToInt = function (s) {

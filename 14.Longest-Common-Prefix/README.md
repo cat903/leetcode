@@ -1,6 +1,4 @@
-# Longest-Common-Prefix
-
-![longest-common-prefix](./q.png)
+# [Longest-Common-Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 # Left-Right-Pass: Pseudo Code
 ```pseudo
@@ -33,7 +31,7 @@ return strs[0]
 ```
 
 # Implementation in C
-```
+```c
 //lcp.c
 char * longestCommonPrefix(char ** strs, int strsSize){
     for(int i=0; strs[0][i] != '\0'; i++){

@@ -1,5 +1,4 @@
-## TWO-SUM
-![two-sum](./q.png)
+# [Two-Sum](https://leetcode.com/problems/two-sum)
 
 ## BRUTE FORCE
 

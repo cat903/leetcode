@@ -1,7 +1,9 @@
 # Manifesto
 
-** I have taken initative to solve atleast one problem in a day, indirection easy->hard ** I try to solve problems in effecient and clean way.
-
+**I have taken initative to solve atleast one problem in a day**
+ - easy->hard
+ - efficient && clean
+ 
 # Maintaining Repo
  - ## Structure
    - repo root
@@ -21,5 +23,3 @@
     - `addfile ${filename}` - when adding new file
     
     - `update  ${filename}:${reasontoupdate}` - when updating contents of file
-
-
