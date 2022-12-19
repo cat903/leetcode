@@ -80,6 +80,8 @@ We Iterate through nums and remember elements position and value. if we have see
 }
 ````
 
+![Hashmap-SBS](./D03D4E80-A49A-4FA7-BB00-3B0846BB28A6.gif)
+
 ## Complexity Analysis
   - Time complexity:
   - Space complexity:
